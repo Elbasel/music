@@ -1,10 +1,10 @@
 /* ========== START Dark Mode Colors ========== */
 
 :root {
-  --primary: #131516;
-  --secondary: #2b2f31;
+  --primary: #0f1111;
+  --secondary: #7d7467;
   --text: #d8d4cf;
-  --blue: #004daa;
+  --blue: #003e88;
   --caption: #e8e6e3;
 }
 
@@ -15,6 +15,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  color-scheme: dark !important;
 }
 
 *,
@@ -93,7 +94,7 @@ audio::-webkit-media-controls-panel {
 } */
 
 audio::-webkit-media-controls-play-button {
-    background-color: #56AEFF;
+    background-color: var(--blue);
     border-radius: 50%;
 }
 
