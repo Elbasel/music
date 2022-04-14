@@ -85,3 +85,21 @@ audio {
 .mp3 {
     width: 65%;
 }
+
+
+@media (max-width: 400px) {
+    * {
+        font-size: 18px !important;
+    }
+    
+    tr {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 12px;
+    }
+
+    td {
+        flex-basis: 100%;
+    }
+    
+}
