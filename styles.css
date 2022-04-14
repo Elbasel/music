@@ -58,3 +58,7 @@ th, td {
 audio {
     width: 100%;
 }
+
+.mp3 {
+    width: 60%;
+}
