@@ -117,6 +117,14 @@ audio::-webkit-media-controls-play-button {
   width: 65%;
 }
 
+
+
+video {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
 @media (max-width: 400px) {
   h1 {
     font-size: 36px;
